@@ -20,8 +20,8 @@ def download_link(object_to_download, download_filename, download_link_text):
 
 ## main
 col1, col2 = st.beta_columns(2)
-col1.image('https://i.ibb.co/FK4QZkY/logo.png', width=300)
-col2.title('Relatório da Balança - TESTE')
+col1.image('logo.png', width=300)
+col2.title('Relatório da Balança')
 
 ## filtro por data de emissão do ticket
 start_date = st.date_input('Data inicial')
